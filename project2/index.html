@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FItNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<!-- CSS reset -->
+<style>
+    body {
+        font-family: "Playball", cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/abs-1850926_1280.jpg)
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 60px;
+        top: -2px;
+
+    }
+
+    .left img {
+        width: 96px;
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: small;
+        text-align: center
+    }
+
+    .mid {
+        display: block;
+        width: 28%;
+        margin: 20px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 15px;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey
+    }
+
+    .btn {
+        font-family: "Playball", cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 5px 16px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 13px;
+        cursor: pointer;
+
+
+    }
+
+
+    .btn:hover {
+        background-color: grey
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    input {
+        font-family: "Playball", cursive;
+        text-align: center;
+        display: block;
+        width: 270px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 20px;
+        font-size: 19px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .btns {
+        display: block;
+        margin: 20px auto;
+        width: 74%;
+        background-color: black;
+        color: white;
+        padding: 10px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym-1048852_1920.png" alt="">
+            <div>FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+
+
+
+
+    </header>
+    <div class="container">
+        <h1>Join The Gym Fast</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Contact No.">
+            </div>
+            <button class="btns">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
